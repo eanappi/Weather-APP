@@ -14,9 +14,11 @@ const App = () => {
       <div class="hero-body">
         <div class="container has-text-centered">
           <div class="columns">
-            <div class="column">
+            <div class="column is-one-third"></div>
+            <div class="column is-one-third">
               First column
             </div>
+            <div class="column is-one-third"></div>
           </div>
 
           <div class="columns">
@@ -33,7 +35,7 @@ const App = () => {
               Fourth column
             </div>
           </div>
-          
+
         </div>
       </div>
     </section>
