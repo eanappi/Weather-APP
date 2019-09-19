@@ -26,7 +26,7 @@ const WeatherDay = async () => {
     </article>
   `
 
-  return template
+  return resolve(template)
 }
 
 export default WeatherDay()
