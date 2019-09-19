@@ -1,17 +1,16 @@
 import AppHeader from './AppHeader.js'
+import WeatherDay from './WeatherDay.js'
 
 const App = () => {
   return `
     <section class="hero is-fullheight is-warning">
-      
       ${AppHeader}
-
       <div class="hero-body">
         <div class="container has-text-centered">
           <div class="columns">
             <div class="column"></div>
             <div class="column">
-              First column
+              ${WeatherDay}
             </div>
             <div class="column"></div>
           </div>
