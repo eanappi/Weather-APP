@@ -9,9 +9,7 @@ const App = () => {
         <div class="container has-text-centered">
           <div class="columns">
             <div class="column"></div>
-            <div class="column">
-              ${WeatherDay}
-            </div>
+            <div class="column" id="WeatherDay"></div>
             <div class="column"></div>
           </div>
 

@@ -7,9 +7,7 @@ const WeatherDay = async () => {
   const description = json.weather[0].description
   const icon = json.weather[0].icon
 
-  console.log(temp)
-
-  let template = await `
+  document.querySelector('#WeatherDay').innerHTML = `
     <article class="media">
       <figure class="media-left">
         <p class="image is-64x64">
@@ -25,8 +23,6 @@ const WeatherDay = async () => {
       </div>
     </article>
   `
-
-  return resolve(template)
 }
 
 export default WeatherDay()
