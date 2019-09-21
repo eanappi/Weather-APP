@@ -1,4 +1,5 @@
 import WeatherDay from './WeatherDay.js'
+import WeatherForecast from './WeatherForecast.js'
 
 const App = () => {
   return `
@@ -17,7 +18,7 @@ const App = () => {
           <div class="columns">
             <div class="column"></div>
             <div class="column" id="WeatherDay">
-              <div class="is-loading"></div>
+              <a class="button is-large is-text is-warning is-loading">Loading ...</a>
             </div>
             <div class="column"></div>
           </div>
