@@ -16,9 +16,9 @@ const WeatherDay = async () => {
       </figure>
       <div class="media-content">
         <div class="content">
-          <h1 class="title"><strong>Temperatura: ${temp} ºC</strong></p>
-          <h2 class="subtitle">Húmedad: ${humidity} %</h2>
-          <p>${description}</p>
+          <h1 class="title"><strong>${temp} ºC</strong></p>
+          <h2 class="subtitle is-capitalized">${description}</h2>
+          <p>${humidity} % de húmedad</p>
         </div>
       </div>
     </article>
