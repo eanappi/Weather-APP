@@ -23,19 +23,8 @@ const App = () => {
             <div class="column"></div>
           </div>
 
-          <div class="columns">
-            <div class="column">
-              First column
-            </div>
-            <div class="column">
-              Second column
-            </div>
-            <div class="column">
-              Third column
-            </div>
-            <div class="column">
-              Fourth column
-            </div>
+          <div class="columns" id="WeatherForecast">
+            <a class="button is-large is-text is-warning is-loading">Loading ...</a>
           </div>
 
         </div>

@@ -2,7 +2,7 @@ const WeatherDay = async () => {
   const response = await fetch('https://api.openweathermap.org/data/2.5/weather?id=3435907&lang=es&units=metric&appid=bbf8e3e4e4b29b00771fc2b9882c2114')
   const json = await response.json()
 
-  const temp = json.main.temp
+  const temp = json.main.temp.toString().slice(0, -1)
   const humidity = json.main.humidity
   const description = json.weather[0].description
   const icon = json.weather[0].icon
