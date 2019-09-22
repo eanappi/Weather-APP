@@ -41,7 +41,6 @@ const App = () => {
         </div>
       </div>
     </section>
-    <div id="debug"></div>
   `
 }
 
