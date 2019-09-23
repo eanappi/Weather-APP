@@ -44,7 +44,7 @@ const WeatherForecast = async () => {
 
       return `
         <div class="column">
-          <div class="card is-transparent">
+          <div class="card is-transparent-50 is-rounded-25">
             <div class="card-content">
               <div class="media">
                 <div class="media-left">

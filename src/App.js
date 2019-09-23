@@ -1,15 +1,17 @@
 import WeatherDay from './WeatherDay.js'
 import WeatherForecast from './WeatherForecast.js'
+import useBackgroundTimeOfDay from './useBackgroundTimeOfDay.js'
 
 const App = () => {
   return `
-    <section class="hero is-fullheight is-warning">
+    <section class="hero is-fullheight has-background ${useBackgroundTimeOfDay}">
       <div class="hero-head">
         <nav class="navbar">
           <div class="navbar-brand">
             <a class="navbar-item" href="/">
               <img src="public/logo.png" alt="Weather New Style">
             </a>
+            <h1 class="title navbar-item has-text-white">Weather New Style</h1>
           </div>
         </nav>
       </div>

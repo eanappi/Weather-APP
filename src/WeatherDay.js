@@ -8,7 +8,7 @@ const WeatherDay = async () => {
   const icon = json.weather[0].icon
 
   document.querySelector('#WeatherDay').innerHTML = `
-    <article class="media">
+    <article class="media is-transparent-50 is-rounded-25">
       <figure class="media-left">
         <p class="image is-64x64">
           <img src="http://openweathermap.org/img/wn/${icon}@2x.png">

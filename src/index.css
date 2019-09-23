@@ -1,4 +1,40 @@
+/**
+  * Global Styles
+  */
 .is-transparent {
   background-color: transparent;
   background-image: none;
+}
+.is-transparent-50 {
+  background-color: rgba(255,255,255,.5);
+  background-image: none;
+}
+.is-rounded-25 {
+  border-radius: 25px;
+}
+.has-background {
+  background-size:  cover;
+  background-repeat:  no-repeat;
+}
+.has-dawn-background {
+  background-image: url(../public/bg-dawn.jpg);
+}
+.has-midday-background {
+  background-image: url(../public/bg-midday.jpg);
+}
+.has-afternoon-background {
+  background-image: url(../public/bg-afternoon.jpg);
+}
+.has-night-background {
+  background-image: url(../public/bg-night.jpg);
+}
+
+
+/**
+  * Weather Day
+  */
+#WeatherDay article {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
 }
