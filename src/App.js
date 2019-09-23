@@ -20,13 +20,13 @@ const App = () => {
           <div class="columns">
             <div class="column"></div>
             <div class="column" id="WeatherDay">
-              <a class="button is-large is-text is-warning is-loading">Loading ...</a>
+              <a class="button is-large is-text is-loading">Loading ...</a>
             </div>
             <div class="column"></div>
           </div>
 
           <div class="columns" id="WeatherForecast">
-            <a class="button is-large is-text is-warning is-loading">Loading ...</a>
+            <div class="column"><a class="button is-large is-text is-loading">Loading ...</a></div>
           </div>
 
         </div>
