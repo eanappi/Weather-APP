@@ -6,9 +6,9 @@ const useBackgroundTimeOfDay = () => {
     :
     hours <= 16 ? 'has-midday-background'
     :
-    hours <= 20 ? 'has-afternoon-background'
+    hours <= 19 ? 'has-afternoon-background'
     :
-    hours <= 0 ? 'has-night-background' : ''
+    hours <= 23 ? 'has-night-background' : ''
   )
 
   return timeOfDayClass
