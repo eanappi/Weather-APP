@@ -1,3 +1,3 @@
-import App from './App.js'
+import App from './src/App.js'
 
 document.querySelector('#root').innerHTML = App

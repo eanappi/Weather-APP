@@ -17,16 +17,16 @@
   background-repeat:  no-repeat;
 }
 .has-dawn-background {
-  background-image: url(../public/bg-dawn.jpg);
+  background-image: url(public/bg-dawn.jpg);
 }
 .has-midday-background {
-  background-image: url(../public/bg-midday.jpg);
+  background-image: url(public/bg-midday.jpg);
 }
 .has-afternoon-background {
-  background-image: url(../public/bg-afternoon.jpg);
+  background-image: url(public/bg-afternoon.jpg);
 }
 .has-night-background {
-  background-image: url(../public/bg-night.jpg);
+  background-image: url(public/bg-night.jpg);
 }
 
 
