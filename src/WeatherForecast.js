@@ -44,7 +44,7 @@ const WeatherForecast = async () => {
 
       return `
         <div class="column">
-          <div class="card">
+          <div class="card is-transparent">
             <div class="card-content">
               <div class="media">
                 <div class="media-left">
@@ -58,7 +58,7 @@ const WeatherForecast = async () => {
                 </div>
               </div>
           
-              <div class="content">
+              <div class="content is-capitalized">
                 ${forecastDaily.weather[0].description}
               </div>
             </div>
