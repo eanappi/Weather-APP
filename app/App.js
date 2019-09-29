@@ -9,7 +9,7 @@ const App = () => {
         <nav class="navbar">
           <div class="navbar-brand">
             <a class="navbar-item" href="/">
-              <img src="public/logo.png" alt="Weather New Style">
+              <img src="img/logo.png" alt="Weather New Style">
             </a>
             <h1 class="title navbar-item has-text-white">Weather New Style</h1>
           </div>
