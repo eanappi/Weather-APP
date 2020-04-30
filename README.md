@@ -1,1 +1,3 @@
-# Weather-New-Style
+# Weather App
+
+Weather APP with new style
